@@ -1,6 +1,6 @@
 {
 	"name": "mcp-mcp",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "MCP server for Model Context Protocol operations",
 	"main": "dist/index.js",
 	"type": "module",
@@ -18,7 +18,12 @@
 		"prepublishOnly": "npm test && npm run build",
 		"start": "node dist/index.js"
 	},
-	"keywords": ["mcp", "model-context-protocol", "mcp-server", "typescript"],
+	"keywords": [
+		"mcp",
+		"model-context-protocol",
+		"mcp-server",
+		"typescript"
+	],
 	"author": "Joseph Mearman",
 	"license": "CC-BY-NC-SA-4.0",
 	"repository": {
